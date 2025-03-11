@@ -1,0 +1,41 @@
+header{
+    background-image: linear-gradient(to bottom,#3d000f, #b40606);
+    color:white;
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+header > p {
+    margin: 5px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding:10px;
+}
+
+nav > a:hover{
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #360303;
+    color:white;
+    padding: 10px;
+    width: 100vw;
+}
+
