@@ -1,9 +1,17 @@
-header{
-    background-image: linear-gradient(to bottom,#3d000f, #b40606);
-    color:white;
-    padding: 15px;
-    padding-bottom: 5px;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+    
+header {
+        background-image: linear-gradient(to bottom,#907a76, #7a0b76);
+        color:white;
+        padding: 15px;
+        padding-bottom: 5px;
 }
 
 header > p {
@@ -24,18 +32,30 @@ nav > a {
 }
 
 nav > a:hover{
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     padding: 8px;
     border-radius: 10px;
+
+
+}
+
+main{
+    min-width: 50vh;
+}
+
+
+main > section > div > a {
+    text-decoration: none;
+    color:black;
+
 }
 
 footer {
     position: fixed;
     bottom: 0;
     text-align: center;
-    background-color: #360303;
+    background-color: rgb(36, 36, 36);
     color:white;
     padding: 10px;
     width: 100vw;
 }
-
